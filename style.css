@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container1 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px;
+    height: 500px;
+}
+
+.container1 p {
+    max-width: 350px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#icon-list {
+    width: auto;
+    margin-right: 5px;
+}
+
+.container1 img {
+    width: 100%;
+}
+.container1 div:nth-child(1){
+    margin-right: 20px;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-form p{
+    margin-bottom: 10px;
+}
+
+.sign-up-form input[type=email] {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid hsl(231, 7%, 60%, .6);
+}
+.sign-up-form [type=email]:focus {
+    outline: none;
+    border: 2px solid black;
+    border-bottom:2px solid rgba(0, 0, 0, .5);
+}
+.sign-up-form button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    
+}
+button:hover {
+    cursor: pointer;
+}
+ button span{
+    color: #fff;
+}
+
+
+.container2{
+    visibility: hidden;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 380px;
+    position: absolute;
+    padding: 30px;
+}
+
+.container2 div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.container2 div h1 {
+    margin-bottom: 0;
+}
+.container2 div p {
+    margin-top: 0;
+}
+
+.icon-success {
+    width: auto;
+}
+
+.container2 button {
+    justify-content: center;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+}
+span {
+    font-weight: 80o;
+}
