@@ -40,6 +40,10 @@ li {
     margin-right: 5px;
 }
 
+#illustration-sign-up-desktop{
+    max-height: 500px;
+}
+
 .container1 img {
     width: 100%;
 }
