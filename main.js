@@ -1,40 +1,38 @@
 const box1 = document.getElementById('sign-up');
 const box2 = document.getElementById('confirmation');
+const box3 = document.getElementById('sign-up1');
+const box4 = document.getElementById('confirmation1');
 const button1 = document.getElementById('subscribing');
 const button2 = document.getElementById('dismissing');
+const button3 = document.getElementById('subscribing1');
+const button4 = document.getElementById('dismissing1');
 const input = document.getElementById('email-input');
 const output = document.getElementById('email');
-
-console.log(box1);
-console.log(box2);
-console.log(button1);
-console.log(button2);
-console.log(input);
-console.log(output);
+const input1 = document.getElementById('email-input1');
+const output1 = document.getElementById('email1');
 
 function succesfull() {
-    if (box2.style.visibility === 'hidden'){
         box2.style.visibility = 'visible';
         output.innerHTML = input.value;
         box1.style.visibility = 'hidden';
-    } else {
-        box2.style.visibility = 'hidden'
-    }
 }
-function dismiss(){
 
-  if (box2.style.visibility === 'visible'){
+function dismiss(){
         box2.style.visibility = 'hidden';
         box1.style.visibility = 'visible';
-    } 
-//  
 }
-    // console.log(input.value);
 
-
+function succesfull1() {
+        box4.style.visibility = 'visible';
+        output1.innerHTML = input1.value;
+        box3.style.visibility = 'hidden';
+}
+function dismiss1(){
+        box4.style.visibility = 'hidden';
+        box3.style.visibility = 'visible';
+}
 
 button1.addEventListener('click', succesfull);
-    // displayemail();
-// }
-// );
 button2.addEventListener('click', dismiss);
+button3.addEventListener('click', succesfull1);
+button4.addEventListener('click', dismiss1);

@@ -15,7 +15,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body id="body">
     <!-- Sign-up form start -->
 
   <div class="container1" id="sign-up">
@@ -40,7 +40,6 @@
       <p>Email address</p>
       <input id="email-input" type="email" name="email" placeholder="email@company.com">
       <button id="subscribing" type="submit"><span>Subscribe to monthly newsletter</span></button>
-      <!-- <input id="subscribing" type="submit" onclick="email" value="Subscribe to monthly newsletter"> -->
       </div>
     </div>
     <div >
@@ -62,17 +61,63 @@
     </p>
     <button id="dismissing" type="submit"><span>Dismiss message</span></button>
     </div>
+</div>
 
     <!-- Success message end -->
 
+        <!--Mobile Sign-up form start -->
+
+<div class="mobile-container1" id="sign-up1">
+
+      <div >
+        <img id="illustration-sign-up-mobile" src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration-sign-up-mobile">
+  </div>
+  <div class="content">
+      <h1>  Stay updated!</h1>
+      <p>  Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>
+          <img id="icon-list" src="./assets/images/icon-list.svg" alt="icon-list">
+          Product discovery and building what matters
+        </li>
+        <li>
+          <img id="icon-list" src="./assets/images/icon-list.svg" alt="icon-list">
+          Measuring to ensure updates are a Success
+        </li>
+        <li>
+          <img id="icon-list" src="./assets/images/icon-list.svg" alt="icon-list">
+          And much more! 
+        </li>
+        </ul>
+        <div class="sign-up-form">
+        <p>Email address</p>
+        <input id="email-input1" type="email" name="email" placeholder="email@company.com">
+        <button id="subscribing1" type="submit"><span>Subscribe to monthly newsletter</span></button>
+  </div>
+  </div>
 
   </div>
-  <div class="container">
 
-  </div>
-  <div class="container">
+      <!--Mobile Sign-up form end -->
 
-  </div>
+      <!--Mobile Success message start -->
+
+      <div class="mobile-container2" id="confirmation1">
+        <div>
+        <img id="icon-success" src="./assets/images/icon-success.svg" alt="icon-success">
+        <div>
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <span id="email1">.</span> 
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+        <button id="dismissing1" type="submit"><span>Dismiss message</span></button>
+        </div>
+      </div>
+      </div>
+    
+          <!--Mobile Success message end -->
+
 
   
   <!-- <div class="attribution">
