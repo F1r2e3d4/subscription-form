@@ -135,6 +135,7 @@ span {
 
 @media screen and (max-width:650px){
     body {
+        height:auto;
         background-color: #fff;
     }
 
